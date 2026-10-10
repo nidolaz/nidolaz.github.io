@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nick Bohner | Portfolio</title>
+  <title>Abigail Gilchrist | Portfolio</title>
   <meta name="description" content="My personal portfolio and projects.">
 
-  <style>
+ <style>
     * {
       box-sizing: border-box;
       margin: 0;
@@ -19,20 +19,20 @@
 
     body {
       font-family: Arial, sans-serif;
-      background: #f8fafc;
+      background: #fff5e6;
       color: #1e293b;
       line-height: 1.7;
     }
 
     header {
-      background: #ffffff;
+      background: #ffb86b;
       padding: 18px 8%;
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 20px;
       flex-wrap: wrap;
-      border-bottom: 1px solid #e2e8f0;
+      /* border-bottom: 1px solid #ae87998b; */
     }
 
     header h2 {
@@ -46,7 +46,7 @@
     }
 
     nav a:hover {
-      color: #2563eb;
+      color: #b7a2e8;
     }
 
     section {
@@ -58,7 +58,8 @@
       text-align: center;
       padding-top: 100px;
       padding-bottom: 100px;
-      background: #eff6ff;
+      background: #69d6c8;
+      /* border-radius: 30px; */
     }
 
     .hero h1 {
@@ -74,7 +75,7 @@
 
     .button {
       display: inline-block;
-      background: #2563eb;
+      background: #173b3f;
       color: white;
       text-decoration: none;
       padding: 12px 22px;
@@ -83,7 +84,7 @@
     }
 
     .button:hover {
-      background: #1d4ed8;
+      background: #b7a2e8;
     }
 
     h2.section-title {
@@ -123,14 +124,25 @@
     }
 
     .skills span {
-      background: #dbeafe;
-      color: #1e40af;
+      background: #b7a2e8;
+      color: white;
       padding: 7px 14px;
       border-radius: 20px;
     }
 
+    .topThingy {
+      background: #173b3f;
+      color: white;
+      padding: 7px 14px;
+      border-radius: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
     .contact {
-      background: #eff6ff;
+      background: #f47466;
     }
 
     footer {
@@ -148,23 +160,22 @@
 
 <body>
   <header>
-    <h2>Nick Bohner</h2>
+    <h2>Abigail Gilchrist</h2>
 
-    <nav aria-label="Main navigation">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
+   <nav aria-label="Main navigation" style="display: flex;
+  flex-direction: row;">
+      <a class="topThingy" style="margin: 0px 2px;" href="#about"><span>About</span></a>
+      <a class="topThingy" style="margin: 0px 2px;" href="#projects"><span>Projects</span></a>
+      <a class="topThingy" style="margin: 0px 2px;" href="#skills"><span>Skills</span></a>
+      <a class="topThingy" style="margin: 0px 2px;" href="#contact"><span>Contact</span></a>
     </nav>
   </header>
 
   <main>
     <section class="hero">
-      <h1>Hi, I'm Nicolas Bohner 👋</h1>
+      <h1>Hi, I'm Abigail Gilchrist 👋</h1>
       <p>
-        I'm a developer who enjoys building
-        creative, useful, and user-friendly projects.
-        Welcome to my portfolio!
+      Welcome to my page!
       </p>
       <a class="button" href="#projects">View My Work</a>
       <a class="button" href="TestPage/">View My Test Page</a>
@@ -174,10 +185,8 @@
     <section id="about">
       <h2 class="section-title">About Me</h2>
       <p>
-        I'm passionate about technology, learning new skills,
-        and solving problems through creative projects.
-        I'm currently a developer at XSoft Inc developing my experience in web
-        development as lead developer of a small project called Financials.
+        Hi! I'm Abi, a student at Purdue University majoring in Themed Entertainment Design. I have been involved in the creative process from a young age, growing up in Indiananapolis, IN where my dad owns an architectural woodwork and custom cabinetry business. He loved creating outside the box using unique and difficult designs, and would often clue me into his process - which began my love for creative solutions. After the pandemic, I became obsessed with social and themed events - planning a new experience to visit almost every month. When I found out there was an entire degree based around themed entertainment, I jumped at the chance to join! 
+        Since jopining the program, I've already learned so much about design, production and fabrication. 
       </p>
     </section>
 
@@ -234,17 +243,17 @@
       <p>Here are some of the tools and technologies I use.</p>
 
       <div class="skills">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-        <span>GitHub</span>
-        <span>React</span>
-        <span>C#</span>
-        <span>Typescript</span>
-        <span>Notion</span>
-        <span>Azure</span>          
-        <span>T-SQL</span>
-        <span>Jack of many trades</span>
+        <span>Customer Service</span>
+        <span>Leadership</span>
+        <span>Adobe Photoshop</span>
+        <span>Adobe Illustrator</span>
+        <span>Learning Maya</span>
+        <span>Social Media Management</span>
+        <span>Food Service</span>
+        <span>Creative Problem Solving</span>
+        <span>Photography</span>          
+        <span>Creative Writing</span>
+        <span>Visual Storytell</span>
       </div>
     </section>
 
@@ -255,17 +264,18 @@
         my projects? Feel free to reach out.
       </p>
       <p>
+        Call or Text me: +1 (317) 695-9833
         <a class="button"
-           href="mailto:your.email@example.com">
-          Email Me (don't)
+           href="mailto:your.aelidagil@gmail.com">
+          Email Me
         </a>
         <a class="button"
-           href="https://www.linkedin.com/in/nicolas-bohner-254896252"
+           href="https://www.linkedin.com/in/abigail-gilchrist-a25094195/"
            target="_blank" rel="noopener noreferrer">
           LinkedIn
         </a>
         <a class="button"
-           href="https://github.com/DarkNic"
+           href="https://github.com/nidolaz"
            target="_blank" rel="noopener noreferrer">
           GitHub
         </a>
@@ -274,7 +284,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2026 Nick Bohner.</p>
+    <p>&copy; 2026 Abigail Gilchrist.</p>
   </footer>
 </body>
 </html>
